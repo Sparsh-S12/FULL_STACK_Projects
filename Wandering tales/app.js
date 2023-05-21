@@ -18,6 +18,6 @@ mongoose
     `mongodb+srv://admin:${process.env.MONGODB_PASSWORD}@cluster0.rzvw1yr.mongodb.net/?retryWrites=true`
     )
 .then(() =>
-app.listen(process.env.PORT,()=>console.log(`Connection Succesfull and Server Running on port ${process.env.PORT}`))
+app.listen(process.env.PORT,()=>console.log(`Connection Successfull and Server Running on port ${process.env.PORT}`))
 )
 .catch((err) => console.log(err));
